@@ -1,4 +1,14 @@
-To make the send to be sent successfully,
+# THE DATA BASE 
+
+USE your mysql database cloud server, for sending the referral data to the database.
+It wont work with local db.
+After altering your .env file
+To see your post request data, you must connect your mysql cloud with your mysql work bench
+
+RUN  npx prisma migrate deploy
+
+
+# HOW TO SEND THE MAIL SUCCESSFULLY
 
 Do not use your google account password.
 Create a app password and use it, to avoid authentication errors
@@ -17,3 +27,6 @@ c.in the search bar:type app password (select the one under security)
 d. you will be directed to app passwords,go to select app and choose other(custom name)
 e. give it a name e.g mailapp and click on generate
 f. You will see your password(mainly on pale yellow background and 16 digit in number) copy it and paste it.
+
+
+
