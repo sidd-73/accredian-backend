@@ -1,3 +1,5 @@
+# AFTER CLONING THE REPOSITORY CHANGE THE .env with your CREDENTIALS
+
 # THE DATA BASE 
 
 USE your mysql database cloud server, for sending the referral data to the database.
