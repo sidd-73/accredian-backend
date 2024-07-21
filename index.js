@@ -9,7 +9,7 @@ const app = express();
 const prisma = new PrismaClient();
 
 const corsOptions = {
-    origin: 'https://accredian-front-end-pi.vercel.app/', // Replace with your frontend URL
+    origin: '*', // Replace with your frontend URL
     optionsSuccessStatus: 200 // For legacy browser support
   };
   
