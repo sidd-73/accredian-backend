@@ -9,7 +9,7 @@ const app = express();
 const prisma = new PrismaClient();
 
 const corsOptions = {
-    origin: '*', // Replace with your frontend URL
+    origin: 'https://accredian-front-end-pi.vercel.app/', // Replace with your frontend URL
     optionsSuccessStatus: 200 // For legacy browser support
   };
   
@@ -100,7 +100,7 @@ app.use((err, req, res, next) => {
 
 
 
-const PORT = process.env.PORT || 10000;
+const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
 });
