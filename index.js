@@ -9,7 +9,7 @@ const app = express();
 const prisma = new PrismaClient();
 
 const corsOptions = {
-    origin: 'http://localhost:3000', // Replace with your frontend URL
+    origin: '*', // Replace with your frontend URL
     optionsSuccessStatus: 200 // For legacy browser support
   };
   
@@ -100,7 +100,7 @@ app.use((err, req, res, next) => {
 
 
 
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 10000;
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
 });
